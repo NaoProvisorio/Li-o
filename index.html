@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Gorjetaria</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>Calculadora de gorjetas online!</h1>
+    <p>Aqui você poderá calcular o valor da gorjeta ideal para os seus clientes.</p>    
+    
+    <span>Selecione um valor abaixo:</span>
+    <input type="number" id="valorConta" placeholder="Valor da conta" class="tbox">
+
+    <div class="buttons">
+        <button class="buttonst" onclick="setPorcentagem(10)">10%</button>
+        <button class="buttonst" onclick="setPorcentagem(15)">15%</button>
+        <button class="buttonst" onclick="setPorcentagem(20)">20%</button>
+    </div>
+
+    <button class="calculate" onclick="calcular()">Calcular</button>
+
+    <span>Esse é o valor que o cliente deverá pagar:</span>
+
+    <div class="pay">
+        <input type="number" id="resultadoGorjeta" placeholder="Valor da gorjeta..." class="gorjeta" readonly>
+        <input type="number" id="resultadoTotal" placeholder="Valor total..." class="gorjeta" readonly>
+    </div>
+    
+    <span>Obrigado. Volte Sempre!</span>
+</div>
+
+</body>
+</html>

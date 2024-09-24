@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 60px;
+}
+
+p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.884);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tbox {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    font-size: xx-large;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: solid black 2px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonst {
+    display: flex;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: large;
+}
+
+.calculate {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 60px;
+}
+
+.gorjeta {
+    background-color: white;
+    width: 300px;
+    height: 32px;
+    font-size: 30px;
+    text-align: center;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pay {
+    display: flex;
+    flex-direction: row;
+}
